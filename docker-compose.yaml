@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  backend:
+    image: gauravshinde1816/interview_tracker_app_backend:1.0.0
+    ports:
+      - '8080:8080'
+  frontend:
+    image: gauravshinde1816/interview_tracker_app_frontend:1.0.0
+    ports:
+      - '3000:3000'
+
+
+
+
